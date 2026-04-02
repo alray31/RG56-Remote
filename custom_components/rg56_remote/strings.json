@@ -1,0 +1,18 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up RG56 Remote",
+        "description": "Select the infrared transmitter pointed at your Midea AC unit, and the temperature sensor to use for Follow Me mode.",
+        "data": {
+          "infrared_entity_id": "Infrared transmitter",
+          "temperature_sensor": "Temperature sensor (for Follow Me)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This transmitter is already configured for an RG56 Remote.",
+      "no_emitters": "No infrared transmitter found. Set up an ESPHome IR proxy first."
+    }
+  }
+}
