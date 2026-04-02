@@ -3,7 +3,7 @@
     "step": {
       "user": {
         "title": "Set up RG56 Remote",
-        "description": "Select the infrared transmitter pointed at your Midea AC unit, and the temperature sensor to use for Follow Me mode.",
+        "description": "Select the infrared transmitter pointed at your AC unit, and the temperature sensor to use for Follow Me mode.",
         "data": {
           "infrared_entity_id": "Infrared transmitter",
           "temperature_sensor": "Temperature sensor (for Follow Me)"
