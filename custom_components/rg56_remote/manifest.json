@@ -1,7 +1,7 @@
 {
   "domain": "rg56_remote",
   "name": "RG56 Remote",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "config_flow": true,
   "documentation": "https://github.com/alray31/RG56-Remote",
   "issue_tracker": "https://github.com/alray31/RG56-Remote/issues",
