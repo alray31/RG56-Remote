@@ -1,1 +1,18 @@
-
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurer RG56 Remote",
+        "description": "Sélectionnez l'émetteur infrarouge pointé vers votre climatiseur Midea, et le capteur de température pour le mode Follow Me.",
+        "data": {
+          "infrared_entity_id": "Émetteur infrarouge",
+          "temperature_sensor": "Capteur de température (pour Follow Me)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Cet émetteur est déjà configuré pour un RG56 Remote.",
+      "no_emitters": "Aucun émetteur infrarouge trouvé. Configurez d'abord un proxy IR ESPHome."
+    }
+  }
+}
